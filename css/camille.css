@@ -1,0 +1,8 @@
+.carrousel_camille{
+    text-align: center;
+    background: url('../img/slider/bg-1.jpg') no-repeat;
+    background-position: center;
+    height: 650px;
+    /*margin: auto;*/
+    display: flex;
+}
