@@ -11,7 +11,7 @@
         
     }
     if(largeurEcran>10 & largeurEcran<400){
-        imageSmall.src="../img/slider/2XSmall.jpg";
+        imageSmall.src="../img/slider/XXSmall.jpg";
         pour_photoXXXs.appendChild(imageSmall);
         
     }

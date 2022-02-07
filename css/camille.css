@@ -82,6 +82,7 @@
   #XSmall img{
     width:400px;
     height: 300px;
+    text-align: center;
      
   }
   #XXXSmall img{
@@ -89,7 +90,10 @@
     height:200px;
     
   }
-     
+  #toto, #titi{
+    position: relative;
+    text-align: center;
+  }   
     
   
   
