@@ -28,14 +28,13 @@ $(document).ready(function(){
     $windowWidth = $(this).width();
 
 
-    if($windowWidth>400 & $windowWidth<768){
+    if($windowWidth>=400 & $windowWidth<768){
         $("#XSmall").show();
-        console.log($windowWidth + "Petite");
     }
 
     if($windowWidth>10 & $windowWidth<400){
         $("#XXXSmall").show();
-        console.log($windowWidth + "Très petite");
+        
     }
     
    /* $(window).on('resize', function() {
