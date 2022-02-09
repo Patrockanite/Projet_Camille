@@ -1,0 +1,103 @@
+.carrousel_camille_1, .carrousel_camille_2, .carrousel_camille_3{
+    text-align: center;
+    margin: auto;
+    /*display: flex;*/
+    display:block;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    /*Slider*/
+    .carrousel_camille_1{
+        background: url('../img/slider/big-1.jpg') no-repeat;
+        background-position: center;
+        height: 650px;
+        width: 1400px;                    /*a voir */        
+    }
+    .carrousel_camille_2{
+        background: url('../img/slider/big-2.jpg') no-repeat;
+        background-position: center;
+        height: 650px;
+        width: 1400px;       
+    }
+    .carrousel_camille_3{
+      background: url('../img/slider/big-3.jpg') no-repeat;
+      background-position: center;
+      height: 650px; 
+      width: 1400px;    
+  }
+  /*fin slider*/
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+      /*Slider*/  
+    .carrousel_camille_1 {
+      background: url('../img/slider/med-1.jpg') no-repeat;
+      background-position: center;
+      height: 460px;
+      width: 992px;
+    }
+    .carrousel_camille_2{
+      background: url('../img/slider/med-2.jpg') no-repeat;
+      background-position: center;
+      height: 460px; 
+      width: 992px;
+    }
+    .carrousel_camille_3{
+      background: url('../img/slider/med-3.jpg') no-repeat;
+      background-position: center;
+      height: 460px; 
+      width: 992px;
+  }
+    /*fin slider*/
+   
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    /*Slider*/
+    .carrousel_camille_1{
+      background: url('../img/slider/small-1.jpg') no-repeat;
+      background-position: center;
+      height: 356px;
+      width: 768px;
+    }
+    .carrousel_camille_2{
+        background: url('../img/slider/small-2.jpg') no-repeat;
+        background-position: center;
+        height: 356px;
+        width: 768px;
+      }
+      .carrousel_camille_3{
+        background: url('../img/slider/small-3.jpg') no-repeat;
+        background-position: center;
+        height: 356px;
+        width: 768px;
+      }
+   /*fin slider*/
+  }
+  
+  /********** Extra small devices only **********/
+  
+  #XSmall img{
+    width:400px;
+    height: 300px;
+    
+     
+  }
+  #XXXSmall img{
+    width:300px;
+    height:200px;
+    
+    
+    
+  }
+  #toto, #titi{
+    position: relative;
+    text-align: center;
+  }   
+    
+  
+  
+  
+  
