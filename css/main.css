@@ -73,7 +73,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .bg-defult {
-  background: #F97794 !important;
+  /* couleur d'origine rempacée par du vert */
+  /*background: #F97794 !important;*/
+   background: #1ABC9C !important;
 }
 
 /* ==========================================================================
