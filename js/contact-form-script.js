@@ -13,8 +13,10 @@ $("#contactForm").validator().on("submit", function (event) {
 
 function submitForm(){
     // Initiate Variables With Form Content
+    var prenom = $("#prenom").val();
     var name = $("#name").val();
     var email = $("#email").val();
+    var telephone =$("#telephone").val();
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
 
@@ -22,13 +24,13 @@ function submitForm(){
     $.ajax({
         type: "POST",
         url: "php/form-process.php",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+        data:  "&prenom="+ prenom + "&name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&telephone=" + telephone + "&message=" + message ,
         success : function(text){
             if (text == "success"){
                 formSuccess();
             } else {
-                formError();
-                submitMSG(false,text);
+                //formError();
+                //submitMSG(false,text);
             }
         }
     });
@@ -49,7 +51,7 @@ function submitMSG(valid, msg){
     if(valid){
         var msgClasses = "h3 text-center tada animated text-success";
     } else {
-        var msgClasses = "h3 text-center text-danger";
+        //var msgClasses = "h3 text-center text-danger";
     }
-    $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+    //$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 }
