@@ -12,7 +12,7 @@
 
         $objet = htmlspecialchars($_POST["msg_subject"]);
 
-        $contenu = '<h1>Message envoyé par la page Contact du site Car in Coloc</h1>
+        $contenu = '<h1>Message envoyé par la page Contact du site Care In Coloc</h1>
         <p><b>Prénom : </b>'. htmlspecialchars($_POST['prenom']) .'<br>
         <b>Nom : </b>' . htmlspecialchars($_POST['name']) . '<br>       
         <b>Email : </b>' . htmlspecialchars($_POST['email']) . '<br>
