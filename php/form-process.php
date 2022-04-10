@@ -5,10 +5,15 @@
     
 
      <?php
+     
+    $texte='success';  
+    $non_success ="<p>Désolé, nous avons rencontré un probleme</p>";
+
     if(isset($_POST['message'])){
         $entete  = 'MIME-Version: 1.0' . "\r\n";
         $entete .= 'Content-type: text/html; charset=utf-8' . "\r\n";
         $entete .= 'From: ' . $_POST['email'] . "\r\n";
+
 
         $objet = htmlspecialchars($_POST["msg_subject"]);
 
@@ -19,14 +24,15 @@
         <b>Téléphone : </b>' . htmlspecialchars($_POST['telephone']) . '<br>
         <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
 
-        $retour = mail('patrickannoot@orange.fr',$objet , $contenu, $entete);
+        $destinaires = 'patrickannoot@orange.fr,camilleannoot@gmail.com';
+
+        $retour = mail($destinaires,$objet , $contenu, $entete);
 
         if($retour) {
-            echo 'success';
+            echo $texte;
         }
         else{
-            echo '<p>Désolé, nous avons rencontré un problème<br>
-            Vous pouvez appeler le <a href="tel:0627707874">0627707874</a></p>';
+            echo $non_success ;
         }
     }
     ?>

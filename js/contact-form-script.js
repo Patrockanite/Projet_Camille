@@ -25,12 +25,16 @@ function submitForm(){
         type: "POST",
         url: "php/form-process.php",
         data:  "&prenom="+ prenom + "&name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&telephone=" + telephone + "&message=" + message ,
-        success : function(text){
-            if (text == "success"){
+        success : function(text,status){
+           //alert(status);
+           //J'ai évalué le staus plutôt que le text
+            if (status=='success'){                
+                //alert("ça marche !!!!! ");
                 formSuccess();
             } else {
-                //formError();
-                //submitMSG(false,text);
+                //alert("ça ne marche pas !");
+                formError();
+                submitMSG(false,text);
             }
         }
     });
@@ -38,7 +42,7 @@ function submitForm(){
 
 function formSuccess(){
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Message envoyé avec succès!")
 }
 
 function formError(){
@@ -51,7 +55,7 @@ function submitMSG(valid, msg){
     if(valid){
         var msgClasses = "h3 text-center tada animated text-success";
     } else {
-        //var msgClasses = "h3 text-center text-danger";
+        var msgClasses = "h3 text-center text-danger";
     }
-    //$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
+    $("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 }
