@@ -95,7 +95,10 @@
   #toto, #titi{
     position: relative;
     text-align: center;
-  }   
+  } 
+  .cache{
+    visibility: hidden;
+  }  
     
   
   
