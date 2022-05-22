@@ -365,19 +365,19 @@
           <div class="col-md-12">
             <!-- Portfolio Controller/Buttons -->
             <div class="controls text-center">
-              <a class="filter active btn btn-common btn-effect" data-filter="all">
+              <a class="filter active btn btn-common btn-effect" data-filter="all"><!--toutes-->
                 Toutes
               </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".design">
-                Salle de soins 
+              <a class="filter btn btn-common btn-effect" data-filter=".soins"><!--salle de soins ex .design-->
+                Salles de soins 
               </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".development">
+              <a class="filter btn btn-common btn-effect" data-filter=".gym"><!--salle de gym--><!-- ex ".development"-->
                 Salle de gym
               </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".print">
+              <a class="filter btn btn-common btn-effect" data-filter=".pause"><!--salle de pause ex .print-->
                 Salle de pause 
               </a>
-              <a class="filter btn btn-common btn-effect" data-filter=".print">
+              <a class="filter btn btn-common btn-effect" data-filter=".attente">
                 Salle d'attente 
               </a>
             </div>
@@ -387,15 +387,67 @@
 
         <!-- Portfolio Recent Projects -->
         <div id="portfolio" class="row">
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development print">
+          <div class="col-lg-4 col-md-6 col-xs-12 mix soins"><!--les photos peuvent appartenir à plusieurs class ex : .gym .pause-->
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/portfolio/img-1.jpg" alt="" />  
+                <img src="img/portfolio/Salles de soins/salle_de_soins_rose.jpg" alt="salle de soins rose" />  
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/portfolio/img-1.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/portfolio/Salles de soins/salle_de_soins_rose.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Agrandir</a>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix soins">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/Salles de soins/salle_de_soins_verte.jpg" alt="salle de soins verte" /> 
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/Salles de soins/salle_de_soins_verte.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Agrandir</a>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-xs-12 mix soins">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/Salles de soins/salle_de_soins_orange.jpg" alt="salle de soins orange" /> 
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/Salles de soins/salle_de_soins_orange.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Agrandir</a>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix gym">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/Salle de gym/salle_de_gym_1.jpg" alt="salle de gym" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/Salle de gym/salle_de_gym_1.jpg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -404,15 +456,15 @@
               </div>               
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix design print">
+          <div class="col-lg-4 col-md-6 col-xs-12 mix gym">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/portfolio/img-2.jpg" alt="" /> 
+                <img src="img/portfolio/Salle de gym/salle_de_gym_3.jpg" alt="salle de gym" /> 
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/portfolio/img-2.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/portfolio/Salle de gym/salle_de_gym_3.jpg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -421,7 +473,41 @@
               </div>               
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
+          <div class="col-lg-4 col-md-6 col-xs-12 mix gym">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/Salle de gym/salle_de_gym_4.jpg" alt="salle de gym" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/Salle de gym/salle_de_gym_4.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Agrandir</a>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix gym">
+            <div class="portfolio-item">
+              <div class="shot-item">
+                <img src="img/portfolio/Salle de gym/salle_de_gym_5.jpg" alt="salle de yoga" />  
+                <div class="single-content">
+                  <div class="fancy-table">
+                    <div class="table-cell">
+                      <div class="zoom-icon">
+                        <a class="lightbox" href="img/portfolio/Salle de gym/salle_de_gym_5.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                      </div>
+                      <a href="#">Agrandir</a>
+                    </div>
+                  </div>
+                </div>
+              </div>               
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-xs-12 mix pause">
             <div class="portfolio-item">
               <div class="shot-item">
                 <img src="img/portfolio/img-3.jpg" alt="" />  
@@ -438,15 +524,16 @@
               </div>               
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development design">
+          <!--essai-->
+          <div class="col-lg-4 col-md-6 col-xs-12 mix attente">
             <div class="portfolio-item">
               <div class="shot-item">
-                <img src="img/portfolio/img-4.jpg" alt="" /> 
+                <img src="img/portfolio/img-3.jpg" alt="" />  
                 <div class="single-content">
                   <div class="fancy-table">
                     <div class="table-cell">
                       <div class="zoom-icon">
-                        <a class="lightbox" href="img/portfolio/img-4.jpg"><i class="lni-zoom-in item-icon"></i></a>
+                        <a class="lightbox" href="img/portfolio/img-3.jpg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
                       <a href="#">View Project</a>
                     </div>
@@ -455,40 +542,7 @@
               </div>               
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix development">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="img/portfolio/img-5.jpg" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/portfolio/img-5.jpg"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-xs-12 mix print design">
-            <div class="portfolio-item">
-              <div class="shot-item">
-                <img src="img/portfolio/img-6.jpg" alt="" />  
-                <div class="single-content">
-                  <div class="fancy-table">
-                    <div class="table-cell">
-                      <div class="zoom-icon">
-                        <a class="lightbox" href="img/portfolio/img-6.jpg"><i class="lni-zoom-in item-icon"></i></a>
-                      </div>
-                      <a href="#">View Project</a>
-                    </div>
-                  </div>
-                </div>
-              </div>               
-            </div>
-          </div>
+          <!--fin essai-->
         </div>
       </div>
       <!-- Container Ends -->
@@ -795,7 +849,7 @@
           <p class="section-subtitle">Les praticiens en activité au cabinet</p>
         </div>
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="single-team">
               <img src="img/team/team1.png" alt="">
               <div class="team-details">
@@ -812,7 +866,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="single-team">
               <img src="img/team/team2.png" alt="">
               <div class="team-details">
@@ -829,7 +883,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-xs-12">
+          <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="single-team">
               <img src="img/team/team3.png" alt="">
               <div class="team-details">
