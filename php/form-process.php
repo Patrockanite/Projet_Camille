@@ -24,7 +24,7 @@
         <b>Téléphone : </b>' . htmlspecialchars($_POST['telephone']) . '<br>
         <b>Message : </b>' . htmlspecialchars($_POST['message']) . '</p>';
 
-        $destinaires = 'patrickannoot@orange.fr,camilleannoot@gmail.com';
+        $destinaires = 'patrickannoot@orange.fr,care.in.coloc@gmail.com';
 
         $retour = mail($destinaires,$objet , $contenu, $entete);
 
