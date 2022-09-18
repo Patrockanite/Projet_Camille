@@ -10,7 +10,7 @@
     méditation, journée, semaine, mois, Fougères">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Patrockanite base Grayrids">
-    <meta name="infos_update" content="update : modifié par Camille le 2022/09/18">
+    <meta name="infos_update" content="update : 2022/06/19">
     <!-- le site est en mode sécurisé grâce au fichier .htaccess-->
     <title>Location cabinet partagé</title>
 
@@ -592,13 +592,11 @@
                 <ul>
                   
                   <li>Salle individuelle : 50€/jour</li>
-                  <li>Salle de gym : 12 euros/heure</li>
-                  <li>Salle de gym : 50 euros la demi-journée</li>
-                  <li>Salle de gym : 90 euros la journée (samedi ou dimanche)</li>
-                  <li>Salle de gym : 170 euros le week-end</li>
+                  <li>Salle de gym : 20 euros/heure</li>
+                  <li>Salle de gym : 30 euros la soirée</li>
+                  <li>Salle de gym : 130 euros la journée (samedi ou dimanche)</li>
+                  <li>Salle de gym : 250 euros le week-end</li>
                   <li>Salle de Gym sur réservation, les soirs et weekends</li>
-				  <!-- Camille ajoute une ligne ici-->
-				  <li>Ma ligne ajoutéee</li>
                 </ul>
               </div>
               <div class="plan-button">
@@ -623,8 +621,6 @@
                   <li>4 jours/semaine : 580 euros/mois</li>
                   <li>5 jours/semaine : 700 euros/mois</li>
                   <li>--</li>
-				  <!--Camille a ajoutée une ligne-->
-				  <li>--</li>
                 </ul>
               </div>
               <div class="plan-button">
@@ -897,7 +893,6 @@
               </div>
             </div>
           </div>
-		  <!--Alexis FRANCZUK-->
           <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="single-team">
               <img src="img/therapheutes/alexis_photo.jpg" alt="Alexis FRANCZUK">
@@ -917,28 +912,7 @@
               </div>
             </div>
           </div>
-			<!--fin Alexis FRANCZUK -->
-			<!--Resa ZOU-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="img/therapheutes/resa_zou.jpg" alt="Resa ZOU">
-              <div class="team-details">
-                <div class="team-inner">                  
-                  <h4 class="team-title">Resa ZOU</h4>
-                  <p>Energéticienne</p>
-                  <p> <a href="tel:+33749080288"><span>07 49 08 02 88</span></a></p>
-                  <ul class="social-list">
-                    <!--li class="google-plus"><a href="https://audiofeelprod.com/" target="_blank"><i class="lni lni-website"></i></a></li-->
-                    <li class="facebook"><a href="https://www.facebook.com/zaz.zou.9693" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
-                    <!--li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li-->
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-			<!--fin Alexis FRANCZUK -->
+      
         </div>
       </div>
     </section>
