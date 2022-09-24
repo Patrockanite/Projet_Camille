@@ -3,16 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Care In Coloc : location sur mesure de salles de soins ou de gym en cabinet de ville pour thérapeutes ou
+    <meta name="description" content="location sur mesure de salles de soins ou de gym en cabinet de ville pour thérapeutes ou
     coachs en médecine douce, énergétique et bien être">
     <meta name="keywords" content="cabinet libéral partagé, cabinet de ville, salles de soin, salle de gym, partage de cabinet,
     locaux, location partagée, médecine douce, bien être, énergétique, thérapeutes, stage, yoga, pilates, paramédical
     méditation, journée, semaine, mois, Fougères">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Patrockanite base Grayrids">
-    <meta name="infos_update" content="update : modifié par Patrockanite le 2022/09/24">
-
-    <!-- le site en mode sécurisé -->
+    <meta name="infos_update" content="update : 2022/06/19">
+    <!-- le site est en mode sécurisé grâce au fichier .htaccess-->
     <title>Location cabinet partagé</title>
 
     <!--Logo-->
@@ -522,7 +521,7 @@
                       <div class="zoom-icon">
                         <a class="lightbox" href="img/portfolio/Salle de gym/gym_groupe.jpg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
-                      <a href="#">Agrandir</a>
+                      <!--a href="#">Agrandir</a-->
                     </div>
                   </div>
                 </div>
@@ -539,7 +538,7 @@
                       <div class="zoom-icon">
                         <a class="lightbox" href="img/portfolio/Salle de pause/salle_de_pause_big.jpg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
-                      <a href="#">Agrandir</a>
+                      <!--a href="#">Agrandir</a-->
                     </div>
                   </div>
                 </div>
@@ -557,18 +556,19 @@
                       <div class="zoom-icon">
                         <a class="lightbox" href="img/portfolio/Salle_attente/salle_attente1.jpg"><i class="lni-zoom-in item-icon"></i></a>
                       </div>
-                      <a href="#">Agrandir</a>
+                      <!--a href="#">Agrandir</a-->
                     </div>
                   </div>
                 </div>
               </div>               
             </div>
           </div>
+          <!--fin essai-->
         </div>
       </div>
       <!-- Container Ends -->
     </section>
-    <!--**************************** Fin section Locaux **************************************-->
+    <!--Fin section Locaux-->
     <!-- Portfolio Section Ends --> 
     <!--***************************************** Les formules *************************************-->
     <!-- Section Tarifs -->
@@ -592,13 +592,11 @@
                 <ul>
                   
                   <li>Salle individuelle : 50€/jour</li>
-                  <li>Salle de gym : 12 euros/heure</li>
-                  <li>Salle de gym : 50 euros la demi-journée</li>
-                  <li>Salle de gym : 90 euros la journée (samedi ou dimanche)</li>
-                  <li>Salle de gym : 170 euros le week-end</li>
+                  <li>Salle de gym : 20 euros/heure</li>
+                  <li>Salle de gym : 30 euros la soirée</li>
+                  <li>Salle de gym : 130 euros la journée (samedi ou dimanche)</li>
+                  <li>Salle de gym : 250 euros le week-end</li>
                   <li>Salle de Gym sur réservation, les soirs et weekends</li>
-				  <!-- Camille ajoute une ligne ici-->
-				  <li>Ma ligne ajoutéee</li>
                 </ul>
               </div>
               <div class="plan-button">
@@ -623,8 +621,6 @@
                   <li>4 jours/semaine : 580 euros/mois</li>
                   <li>5 jours/semaine : 700 euros/mois</li>
                   <li>--</li>
-				  <!--Camille a ajoutée une ligne-->
-				  <li>--</li>
                 </ul>
               </div>
               <div class="plan-button">
@@ -639,7 +635,7 @@
     <!-- Fin Section Tarifs -->
 
 
-    <!-- Counter Section Start (bandeau vert) -->
+    <!-- Counter Section Start -->
     <div class="counters section bg-defult">
       <div class="container">
         <div class="row"> 
@@ -690,9 +686,9 @@
         </div>
       </div>
     </div>
-    <!-- Counter Section End (fin du bandeau) -->
+    <!-- Counter Section End -->
 
-    <!-- ************************* Section Recap Salles ********************************-->
+    <!-- Section Recap Salles -->
     <section class="testimonial section">
       <div class="container">
         <div class="row">
@@ -830,10 +826,10 @@
         </div>
       </div>
     </section>
-    <!--********************************************** Fin Section Recap Salles********************************** --> 
+    <!-- Fin Section Recap Salles --> 
 
 
-    <!-- *******************************************Section Nous rejoindre ? **************************************-->
+    <!-- Section Nous rejoindre ? -->
     <section class="call-action section">
       <div class="container">
         <div class="row justify-content-center">
@@ -848,9 +844,9 @@
         </div>
       </div>
     </section>
-    <!--****************************************** Fin section Nous rejoindre ? **********************************-->
+    <!-- Fin section Nous rejoindre ? -->
 
-    <!--***************** Les thérapeuthes *********** Les Stars Quoi ! Le dream team ************************** -->
+    <!--***************** Les thérapeuthes *********** Les Stars Quoi !************************** -->
     <!-- Team section Start -->
     <section id="team" class="section">
       <div class="container">
@@ -868,7 +864,7 @@
                   <h4 class="team-title">Camille ANNOOT</h4>
                   <p>Kinésithérapeute</p>
                   <p>Méthode Demelt - Massage abdominal asiatique - Massage californien</p>
-                  <p> <a href="tel:+33627707874"><span>06 27 70 78 74</span></a></p>
+                  <p> <a href="tel:+33299944001"><span>02 99 94 40 01</span></a></p>
                   <!--ul class="social-list">
                     <li class="facebook"><a href="#"><i class="lni-facebook-filled"></i></a></li>
                     <li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
@@ -897,7 +893,6 @@
               </div>
             </div>
           </div>
-		  <!--Alexis FRANCZUK-->
           <div class="col-lg-4 col-md-6 col-xs-12">
             <div class="single-team">
               <img src="img/therapheutes/alexis_photo.jpg" alt="Alexis FRANCZUK">
@@ -917,55 +912,12 @@
               </div>
             </div>
           </div>
-			<!--fin Alexis FRANCZUK -->
-			<!--Resa ZOU-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="img/therapheutes/resa_zou.jpg" alt="Resa ZOU">
-              <div class="team-details">
-                <div class="team-inner">                  
-                  <h4 class="team-title">Resa ZOU</h4>
-                  <p>Energéticienne</p>
-                  <p> <a href="tel:+33749080288"><span>07 49 08 02 88</span></a></p>
-                  <ul class="social-list">
-                    <li class="google-plus"><a href="https://resazou.wixsite.com/resaenergie/" target="_blank"><i class="lni lni-website"></i></a></li>
-                    <li class="facebook"><a href="https://www.facebook.com/zaz.zou.9693" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
-                    <!--li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li-->
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-			<!--fin Resa ZOU -->
-			<!--CAMILLE AJOUTE UN THERAPEUTE LE 18/09/22-->
-			<!--Catherine REPESSE-->
-          <div class="col-lg-4 col-md-6 col-xs-12">
-            <div class="single-team">
-              <img src="img/therapheutes/logo_Catherine_REPESSE.jpg" alt="Catherine REPESSE">
-              <div class="team-details">
-                <div class="team-inner">                  
-                  <h4 class="team-title">Catherine REPESSE</h4>
-                  <p>Réflexologue plantaire et palmaire</p>
-                  <p> <a href="tel:+33695186950"><span>06 95 18 69 50</span></a></p>
-                  <ul class="social-list">
-                    <!--li class="google-plus"><a href="https://resazou.wixsite.com/resaenergie/" target="_blank"><i class="lni lni-website"></i></a></li-->
-                    <li class="facebook"><a href="https://www.facebook.com/profile.php?id=100072546309644" target="_blank"><i class="lni lni-facebook-filled"></i></a></li>
-                    <!--li class="twitter"><a href="#"><i class="lni-twitter-filled"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="lni-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="lni-linkedin-fill"></i></a></li-->
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-			<!--fin Catherine REPESSE -->
+      
         </div>
       </div>
     </section>
     <!-- Team section End -->
-    <!--************************************* Fin de section les thérapeuthes **********************************-->
+    <!--************************************* Fin les thérapeuthes **********************************-->
    
     <!--************************************* Les infos du cabinet **********************************-->
     <!-- Blog Section -->
@@ -978,58 +930,6 @@
           <p class="section-subtitle">Ici, toutes les petites infos sur la vie du cabinet</p>
         </div>
         <div class="row">
-		<!--Camille ajoute Yoga Catherine le 23/09/2022-->
-    <div class="col-lg-4 col-md-6 col-xs-12 blog-item"><!--Modification par Patrockanite-->
-		 <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <a href="https://www.yoga-om-shanti.com/" target="_blank">
-                  <img src="img/blog/yoga catherine.jpg" alt="Cours de Yoga">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>Cours de Yoga mercredi 19h30</div>
-                <h3><!--a href="single-post.html"-->Dès à présent, Christine vous propose une séance de yoga tous les mercredis soir à 19h30.<br>
-                 Ce cours d'une heure est ouvert à toutes et à tous.<br>
-                 Renseignements ou inscription au <a href="tel:+33664906943"><span>06 64 90 69 43</span></a><br>
-                  <a href="mailto:christine.lebert@club.fr">christine.lebert@club.fr</a>
-                </h3>
-                <!-- <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div> -->
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-    </div><!--Modification par Patrockanite-->
-    <!--Fin de Yoga Catherine-->
-
-		<!--CAMILLE AJOUTE Catherine REPESSE LE 18/09/22-->
-		<div class="col-lg-4 col-md-6 col-xs-12 blog-item">
-            <!-- Blog Item Starts -->
-            <div class="blog-item-wrapper">
-              <div class="blog-item-img">
-                <!--a href="https://audiofeelprod.com/" target="_blank"-->
-                  <img src="img/blog/fly_Catherine_REPESSE.jpg" alt="Catherine REPESSE Réflexologue">
-                </a>                
-              </div>
-              <div class="blog-item-text"> 
-                <div class="date"><i class="lni-calendar"></i>Catherine REPESSE Réflexologue</div>
-                <h3><!--a href="single-post.html"-->Pour bien démarrer la rentrée, Catherine, réflexologue, est arrivée en ce début septembre.<br>
-                  Il s'agit de réflexologie plantaire et palmaire, pour prendre soin de votre corps et de votre esprit de façon naturelle et efficace. <br>N’hésitez pas à prendre RDV dès à présent au <a href="tel:+33695186950"><span>06 95 18 69 50</span></a><br>
-                  <a href="mailto:reflexo.cath@gmail.com">reflexo.cath@gmail.com</a> 
-                </h3>
-                <!-- <div class="meta-tags">
-                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
-                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
-                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
-                </div> -->
-              </div>
-            </div>
-            <!-- Blog Item Wrapper Ends-->
-          </div>
-          <!-- Fin Catherine REPESSE -->
           <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
             <!-- Blog Item Starts -->
             <div class="blog-item-wrapper">
@@ -1040,10 +940,9 @@
               </div>
               <div class="blog-item-text"> 
                 <div class="date"><i class="lni-calendar"></i>ADN Podo-Orthèse</div>
-                <h3><!--a href="single-post.html"-->Nous sommes ravis de vous annoncer l’arrivée d’ADN PODO dans nos locaux.<br>
+                <h3><!--a href="single-post.html"-->Nous sommes ravis de vous annoncer l’arrivée d’ ADN PODO dans nos locaux .
                   Eric NGUYEN consulte désormais tous les lundis à Fougères.<!--/a--><br>
-                  Prenez vos RDV auprès de Lucie au <a href="tel:+33299238671"><span>02 99 23 86 71</span>.</a><br>
-                  <a href="https://www.adnpodo.fr" target="_blank">Consultez leur site Internet</a> ou leur<a href="https://www.facebook.com/profile.php?id=100073201247479" target="_blank"> page Facebook <i class="lni lni-facebook-filled"></i></a>.
+                  Prenez vos RDV auprès de Lucie au <a href="tel:+33299238671"><span>02 99 23 86 71</span>.</a><br>Vous pouvez consulter leur <a href="https://www.adnpodo.fr" target="_blank">site internet</a> ou leur page Facebook.
                   Découvrez leurs conceptions sur Instagram.
                 </h3>
                 <!-- <div class="meta-tags">
@@ -1061,7 +960,7 @@
             <div class="blog-item-wrapper">
               <div class="blog-item-img">
                 <a href="https://audiofeelprod.com/" target="_blank">
-                  <img src="img/blog/logo alexis 2.png" alt="Audifeelprod"><!--camille modifie le logo 18/09/22-->
+                  <img src="img/blog/logo alexis.PNG" alt="Audifeelprod">
                 </a>                
               </div>
               <div class="blog-item-text"> 
@@ -1121,7 +1020,7 @@
       </div>
     </section>
     <!-- blog Section End -->
-    <!--********************************** Fin infos du cabinet ***********************************************-->
+    <!--********************************** Fin infos du cabinet ****************************-->
     
 
     <!--*************************************** Section Formulaire de contact *********************************************-->
