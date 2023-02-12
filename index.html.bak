@@ -973,6 +973,35 @@
           <p class="section-subtitle">Ici, toutes les petites infos sur la vie du cabinet</p>
         </div>
         <div class="row">
+		<!--Camille ajoute formation kinésio le 25/09/2022-->
+    <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
+		 <!-- Blog Item Starts -->
+            <div class="blog-item-wrapper">
+              <div class="blog-item-img">
+                <a href="https://www.valeri.kinesiologierennes.fr/" target="_blank">
+                  <img src="img/blog/affiche formation Kinésio Valéri Nov.jpg" alt="FORMATION KINESIO VALERI">
+                </a>                
+              </div>
+              <div class="blog-item-text"> 
+                <div class="date"><i class="lni-calendar"></i>FORMATION KINESIOLOGIE Santé par le toucher</div>
+                <h3><!--a href="single-post.html"-->Les 19 et 20 novembre 2022 : une formation proposée par Valéri BRUSSET DUBAN.<br>
+                 Un stage ouvert à tous, permettant d'avoir quelques bases d'autotraitement avec des notions de médecine chinoise.<br>
+                 Renseignements ou inscription au <a href="tel:+33785165380"><span>07 85 16 53 80</span></a><br>
+                  <a href="mailto:valeri.kinesiologie@gmail.com">valeri.kinesiologie@gmail.com</a>
+				  <a href="https://www.valeri.kinesiologierennes.fr/" target="_blank">Consultez le site Internet</a>
+                  pour en découvrir d'avantage !
+                </h3>
+                <!-- <div class="meta-tags">
+                  <span><a href="#"><i class="lni-eye"></i> 4.5k Views</a></span>
+                  <span><a href="#"><i class="lni-bubble"></i> 07</a></span>
+                  <span><a href="#"><i class="lni-reply"></i> 332</a></span>
+                </div> -->
+              </div>
+            </div>
+            <!-- Blog Item Wrapper Ends-->
+    </div>
+    <!--Fin formation kinésio-->
+
 		<!--Camille ajoute Yoga Catherine le 23/09/2022-->
     <div class="col-lg-4 col-md-6 col-xs-12 blog-item"><!--Modification par Patrockanite-->
 		 <!-- Blog Item Starts -->
@@ -1025,6 +1054,7 @@
             <!-- Blog Item Wrapper Ends-->
           </div>
           <!-- Fin Catherine REPESSE -->
+          <!--ADN PODO-->
           <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
             <!-- Blog Item Starts -->
             <div class="blog-item-wrapper">
@@ -1050,7 +1080,7 @@
             </div>
             <!-- Blog Item Wrapper Ends-->
           </div>
-
+          <!-- Fin ADN PODO-->
           <div class="col-lg-4 col-md-6 col-xs-12 blog-item">
             <!-- Blog Item Starts -->
             <div class="blog-item-wrapper">
